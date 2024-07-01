@@ -104,7 +104,7 @@ dendro = hierarchy.dendrogram(Z)
 
 
 #load dataset
-filepath='E:\\datascience\\ed_x\\ed_x_project_and_lab\csv\\cars_clus.csv'
+filepath='cars_clus.csv'
 pdf=pd.read_csv(filepath)
 print('Shape of dataset:', pdf.shape)
 pdf.head(5)
